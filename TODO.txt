@@ -1,0 +1,12 @@
+- Index Page
+    - Needs  an introduction to the game
+    - Needs a signup button
+
+- Sign Up page
+    - Needs a sign up form with username/password/email
+    -
+
+- Game page
+    - Needs to be gated by Logged in authentication
+    - Needs 4 Radial buttons that can be user for question ABCD
+    - 
