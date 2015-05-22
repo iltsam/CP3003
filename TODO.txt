@@ -9,4 +9,28 @@
 - Game page
     - Needs to be gated by Logged in authentication
     - Needs 4 Radial buttons that can be user for question ABCD
-    - 
+    -
+
+- SQLite file
+    - User accounts
+        - user_id
+        - username
+        - password
+        - account_type (Admin/Teacher/student)
+        - email
+        - class
+        -
+
+    - Questions
+        - question_set
+        - question_number
+        - question
+        - question_answer
+        - question_hint_1
+        - question_hint_2
+
+    - results
+        - user_id
+        - question_set
+        - question_number
+        - 
