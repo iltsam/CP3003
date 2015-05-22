@@ -19,7 +19,7 @@
         - account_type (Admin/Teacher/student)
         - email
         - class
-        -
+
 
     - Questions
         - question_set
@@ -33,4 +33,5 @@
         - user_id
         - question_set
         - question_number
-        - 
+        - correct (true/false)
+        - user_choice
