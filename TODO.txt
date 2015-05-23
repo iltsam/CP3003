@@ -1,3 +1,5 @@
+- HTML/CSS STYLING FOR ALL PAGES...
+
 - Index Page
     - Needs  an introduction to the game
     - Needs a signup button
@@ -8,12 +10,13 @@
     - Needs HTML/CSS layout applied to it.
 
 - Game page
-    - Needs to be gated by Logged in authentication
-    - Needs a form 4 radio buttons that can be user for question ABCD
-        - Submit button posts to answer_check
-            - Answer check checks to see if the selected radio button is correct
-            - changes $_SESSION['question_number'] + 1
-            - redirects to game.php and displays the next question
+    - Needs to be gated by Logged in authentication ~done
+    - Needs a form 4 radio buttons that can be user for question ABCD ~done
+        - Submit button posts to answer_check ~done
+            - Answer check checks to see if the selected radio button is correct ~ done
+            - changes $_SESSION['question_number'] + 1 ~ done
+            - redirects to game.php and displays the next question ~done
+            - Adds answer to results database
     - Needs HTML/CSS Applied to it.
 
 
@@ -22,6 +25,11 @@
     - Needs HTML/CSS Applied to it
 
 - Authenticate ~DONE
+
+- Results Page
+    - Displays results sorted by class
+        - also sorts by most correct (Kinda like leaderboard)
+    - Gated by Teacher status?
 
 
 
