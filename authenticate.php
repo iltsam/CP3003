@@ -8,18 +8,23 @@ if(isset($_POST['username'])) {
     $results = $stmt->fetchAll();
     if ($results) {
         session_regenerate_id();
+        $results = $results[0];
         echo "Logged in";
         echo "<pre>";
         print_r($results);
-        echo "</pre>";
+
 
         // Sets all the Session variables
         $_SESSION['username'] = $_POST['username'];
         $_SESSION['account_type'] = $results['account_type'];
+        print_r($_SESSION['account_type']);
+
 
         // When logging in, sets the users question number to 1 -
-        $_SESSION['question_number'] = '1';
+        settype($_SESSION['question_number'], 'integer');
+        $_SESSION['question_number'] = 1;
 
+        echo "</pre>";
         // Redirect to index
         header("Location: index.php");
     } else {

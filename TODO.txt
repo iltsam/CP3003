@@ -9,14 +9,19 @@
 
 - Game page
     - Needs to be gated by Logged in authentication
-    - Needs 4 Radial buttons that can be user for question ABCD
+    - Needs a form 4 radio buttons that can be user for question ABCD
+        - Submit button posts to answer_check
+            - Answer check checks to see if the selected radio button is correct
+            - changes $_SESSION['question_number'] + 1
+            - redirects to game.php and displays the next question
     - Needs HTML/CSS Applied to it.
+
 
 - Login page
     - Needs to have a working login form
     - Needs HTML/CSS Applied to it
 
-- Authenticate
+- Authenticate ~DONE
 
 
 
