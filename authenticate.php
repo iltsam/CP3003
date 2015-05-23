@@ -16,8 +16,10 @@ if(isset($_POST['username'])) {
 
         // Sets all the Session variables
         $_SESSION['username'] = $_POST['username'];
+        $_SESSION['user_id'] = $results['user_id'];
         $_SESSION['account_type'] = $results['account_type'];
-        print_r($_SESSION['account_type']);
+
+//        print_r($_SESSION['account_type']);
 
 
         // When logging in, sets the users question number to 1 -
