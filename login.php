@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -6,6 +8,12 @@
     <title>ABCorD - Login</title>
 </head>
 <body>
+
+<?php
+if (isset($_SESSION['msg'])){
+    echo $_SESSION['msg'];
+}
+?>
 
 <form name="login" method="post" action="authenticate.php">
     <label for="username">Username: </label>
@@ -15,7 +23,6 @@
     <input type="password" name="password">
     <br/>
     <input type="submit" name="submit" value="Submit">
-
 </form>
 
 

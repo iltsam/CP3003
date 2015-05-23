@@ -16,6 +16,12 @@
     - Needs to have a working login form
     - Needs HTML/CSS Applied to it
 
+- Authenticate
+
+
+
+
+
 - SQLite file ~DONE
     - User accounts
         - user_id
