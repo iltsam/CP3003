@@ -1,17 +1,22 @@
 - Index Page
     - Needs  an introduction to the game
     - Needs a signup button
+    - Needs HTML/CSS applied to it
 
 - Sign Up page
-    - Needs a sign up form with username/password/email
-    -
+    - Needs a sign up form with username/password/email ~DONE
+    - Needs HTML/CSS layout applied to it.
 
 - Game page
     - Needs to be gated by Logged in authentication
     - Needs 4 Radial buttons that can be user for question ABCD
-    -
+    - Needs HTML/CSS Applied to it.
 
-- SQLite file
+- Login page
+    - Needs to have a working login form
+    - Needs HTML/CSS Applied to it
+
+- SQLite file ~DONE
     - User accounts
         - user_id
         - username
