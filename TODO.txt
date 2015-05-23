@@ -32,9 +32,6 @@
     - Gated by Teacher status?
 
 
-
-
-
 - SQLite file ~DONE
     - User accounts
         - user_id
