@@ -9,6 +9,7 @@ $_SESSION['question_set'] = 'math'
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="res/mainstyles.css">
     <title>ABCorD - Game</title>
 </head>
 <body>
@@ -19,12 +20,6 @@ if (isset($_SESSION['question_set'])) {
     $stmt = $dbh->query($sql);
     $results = $stmt->fetchAll();
     $results = $results[0];
-    echo $_SESSION['question_number'];
-    echo $results['question'];
-    echo $results['a1'];
-    echo $results['a2'];
-    echo $results['a3'];
-    echo $results['a4'];
 
 } else {
     echo "Please select a set of questions...";
