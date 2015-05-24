@@ -1,7 +1,6 @@
-<?php
+<?php session_start();
 include("dbconnect.php");
 require("authenticate.php");
-session_start();
 ?>
 
 <!DOCTYPE html>

@@ -1,9 +1,9 @@
 - HTML/CSS STYLING FOR ALL PAGES...
 
 - Index Page
-    - Needs  an introduction to the game
-    - Needs a signup button
-    - Needs HTML/CSS applied to it
+    - Needs  an introduction to the game ~ Done
+    - Needs a signup button ~done
+    - Needs HTML/CSS applied to it ~Done
 
 - Sign Up page
     - Needs a sign up form with username/password/email ~DONE
