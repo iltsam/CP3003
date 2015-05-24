@@ -68,7 +68,11 @@ session_start();
 <?php } ?>
         <footer>
             <div class="footer">
-
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: Email@Email.com</li>
+                    <li>Ph. 0400 000 000</li>
+                </ul>
             </div>
         </footer>
         </div>

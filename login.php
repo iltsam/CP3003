@@ -29,7 +29,7 @@ session_start();
     <div id="contentContainer">
         <?php
         if (isset($_SESSION['msg'])){
-            echo $_SESSION['msg'];
+            echo "<h3>" . $_SESSION['msg'] . "</h3>";
         }
         if (!isset($_SESSION['account_type'])) {
 
@@ -49,7 +49,11 @@ session_start();
     </div>
     <footer>
         <div class="footer">
-
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Email: Email@Email.com</li>
+                <li>Ph. 0400 000 000</li>
+            </ul>
         </div>
     </footer>
 
