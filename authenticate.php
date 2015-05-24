@@ -34,7 +34,7 @@ if(isset($_POST['username'])) {
     }
 
 } else if (isset($_SESSION['account_type'])) {
-    $_SESSION['msg'] = "You are currently logged in as: " . $_SESSION['username'];
+//    $_SESSION['msg'] = "You are currently logged in as: " . $_SESSION['username'];
 } else {
     $_SESSION['msg'] = "Please log in";
     header("Location: login.php");

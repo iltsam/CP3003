@@ -12,6 +12,11 @@
     border-color: black;
 }
 
+.title {
+    color: black;
+    padding-top: 5%;
+}
+
 .navButton {
     display: inline-block;
     border-radius: 4px;

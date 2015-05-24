@@ -11,7 +11,7 @@ session_start();
 <body>
     <div class="container" id="container">
         <header id="banner">
-            <h1>Operation Fun Learning</h1>
+            <h1 class="title">Operation Fun Learning</h1>
         </header>
         <nav id="navBar">
             <a class="navButton" href="index.php">Home</a>

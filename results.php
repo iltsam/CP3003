@@ -14,7 +14,7 @@ session_start();
 <body>
 <div class="container">
     <header id="banner">
-        <h1>Operation Fun Learning</h1>
+        <h1 class="title">Operation Fun Learning</h1>
     </header>
     <nav id="navBar">
         <a class="navButton" href="index.php">Home</a>
@@ -45,7 +45,7 @@ session_start();
                     echo "There are no results";
                 }
                 foreach ($results as $row) {
-                    echo "<tr><td>Question $row[question_number]</td><td>$row[correct]</td></tr><br/>";
+                    echo "<tr><td>Question $row[question_number]</td><td>$row[correct]</td></tr>";
                 }
                 ?>
             </table>
