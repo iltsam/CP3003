@@ -22,9 +22,10 @@ if (isset($_POST['answer'])) {
         // Increase question number by 1
         $_SESSION['question_number'] = $_SESSION['question_number'] + 1;
         // If the question number exceeds the 10Q max, sends to results and sets Q_number back to 1
-        if ($_SESSION['question_number'] > 10) {
+        if ($_SESSION['question_number'] == 11) {
             $_SESSION['question_number'] = 1;
             header("Location: results.php");
+            exit();
         }
         header("Location: game.php");
     } else {
@@ -37,14 +38,15 @@ if (isset($_POST['answer'])) {
         // Increments the question number by 1 to send to the next question.
         $_SESSION['question_number'] = $_SESSION['question_number'] + 1;
         // If the question number exceeds the 10Q max, sends to results and sets Q_number back to 1
-        if ($_SESSION['question_number'] > 10) {
+        if ($_SESSION['question_number'] == 11) {
             $_SESSION['question_number'] = 1;
             header("Location: results.php");
+            exit();
         }
         header("Location: game.php");
 //        echo "Incorrect!";
     }
 } else {
-    header("Location: results.php");
+    header("Location: game.php");
 }
 ?>

@@ -34,7 +34,6 @@ $_SESSION['question_set'] = 'math'
         <h1>ABCorD</h1>
         <?php
         if (isset($_SESSION['question_set'])) {
-            echo $_SESSION['msg'];
             $sql = "SELECT * FROM questions WHERE question_set = '$_SESSION[question_set]' AND question_number = '$_SESSION[question_number]'";
             $stmt = $dbh->query($sql);
             $results = $stmt->fetchAll();
